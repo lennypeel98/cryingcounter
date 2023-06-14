@@ -1,0 +1,67 @@
+body {
+    background: #9198e5;
+    background-size: cover;
+    font-family: -apple-system, 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#app {
+    width: 300px;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    border: 3px solid white;
+    border-radius: 5%;
+    padding: 10px; 
+    background: linear-gradient(#9198e5, #e66465, #9198e5);
+    
+}
+#title{
+    width: 200px;
+    display: flex;
+    position: centre;
+    margin: auto;
+}
+
+#elenapic{
+    width: 100px;
+    height: 100px;
+    border: 5px #9198e5 solid;
+    border-radius: 100%
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white
+}
+
+h2 { 
+    color: white
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #9198e5;
+}
+
+#save-btn {
+    background: #e66465;
+}
+
